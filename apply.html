@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apply For Classes | Academic Consulting &amp; Education</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=EB+Garamond:wght@400;500;600&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ace-styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg ace-navbar sticky-top">
+      <div class="container">
+        <a class="navbar-brand ace-logo" href="index.html" aria-label="ACE — Academic Consulting & Education">
+          <span class="first">A</span>cademic<span class="sep"></span><span class="first">C</span>onsulting&nbsp;&amp;<span class="sep"></span><span class="first">E</span>ducation
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="apply.html">Apply For Classes</a></li>
+            <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link " href="contest-results.html">Contest Results</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="kcsl.html" role="button" data-bs-toggle="dropdown">KCSL</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="kcsl.html">KCSL Overview</a></li>
+                <li><a class="dropdown-item" href="kcsl.html#rules">KCSL Rules</a></li>
+                <li><a class="dropdown-item" href="kcsl.html#prep">Prep Materials</a></li>
+                <li><a class="dropdown-item" href="registration.html">KCSL Registration</a></li>
+                <li><a class="dropdown-item" href="kcsl.html#faq">KCSL FAQ</a></li>
+                <li><a class="dropdown-item" href="contest-results.html">KCSL Results</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link " href="faq.html">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link " href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link " href="tutors.html">Tutors</a></li>
+          </ul>
+          <button class="login-btn">
+            <span class="avatar"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2c-3.33 0-10 1.67-10 5v3h20v-3c0-3.33-6.67-5-10-5z"/></svg></span>
+            Log In
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="page-hero" style="background-image:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)), url('https://static.wixstatic.com/media/11062b_41329c4d93704e4ea09f0ccb806fd3c9~mv2.jpg/v1/fill/w_1800,h_900,al_c,q_85/11062b_41329c4d93704e4ea09f0ccb806fd3c9~mv2.jpg');">
+    <div class="page-title">Apply For Classes</div>
+  </section>
+
+  <section class="content-block">
+    <div class="container" style="max-width:980px;">
+      <div class="label-blue text-center">Apply For Classes</div>
+      <h2 class="text-center" style="margin-bottom:40px;">Application Form</h2>
+      <p>Please follow the steps below to start the application process at ACE.</p>
+      <ol style="line-height:2; font-size:16px;">
+        <li>Fill out the form below. <span>(New students only. If you have previously taken classes at ACE, please contact us.)</span></li>
+        <li>ACE staff will then send you an evaluation test and answer sheet for your child to complete and return to ACE.</li>
+        <li>After an analysis of the evaluation results, ACE will contact you to make an appointment online for a virtual consultation.</li>
+        <li>A counselor will discuss the best class options with you based on the results, and you may then choose to register for the classes discussed.</li>
+      </ol>
+
+      <h3>Important Notes</h3>
+      <ul style="line-height:2; font-size:16px;">
+        <li>Enrollment in all ACE programs is on a first-come, first-served basis. We recommend enrolling early to avoid the last-minute rush and secure a place in the appropriate class. Class spots are limited.</li>
+        <li>Information regarding scheduling and pricing is subject to change without notice.</li>
+        <li>The email addresses you submit on the online registration form will be used to notify you of exam dates, special announcements, and new courses. We will never share your contact information with anyone else.</li>
+        <li>Please find online payment options on the contact page.</li>
+      </ul>
+
+      <h3>Application Form <small style="color:#999;font-style:normal;font-size:13px;">* required</small></h3>
+      <form class="ace-form mt-4" onsubmit="event.preventDefault(); alert('Thanks for submitting!'); this.reset();">
+        <div class="row">
+          <div class="col-md-6 field"><input type="text" class="form-control" placeholder="Student First Name *" required></div>
+          <div class="col-md-6 field"><input type="text" class="form-control" placeholder="Student Last Name *" required></div>
+          <div class="col-md-6 field"><input type="text" class="form-control" placeholder="Grade Level *" required></div>
+          <div class="col-md-6 field"><input type="text" class="form-control" placeholder="School"></div>
+          <div class="col-md-6 field"><input type="text" class="form-control" placeholder="Parent Name *" required></div>
+          <div class="col-md-6 field"><input type="email" class="form-control" placeholder="Parent Email *" required></div>
+          <div class="col-md-6 field"><input type="tel" class="form-control" placeholder="Phone *" required></div>
+          <div class="col-md-6 field"><input type="text" class="form-control" placeholder="City / State"></div>
+          <div class="col-12 field">
+            <label class="form-label fw-semibold mt-3 d-block">Please select your subjects:</label>
+            <div class="row mt-2 g-2" style="font-size:15px;">
+              <div class="col-md-6"><label><input type="checkbox" class="form-check-input me-2"> Common Core English</label></div>
+              <div class="col-md-6"><label><input type="checkbox" class="form-check-input me-2"> Book Club</label></div>
+              <div class="col-md-6"><label><input type="checkbox" class="form-check-input me-2"> Common Core Math</label></div>
+              <div class="col-md-6"><label><input type="checkbox" class="form-check-input me-2"> Higher Math</label></div>
+              <div class="col-md-6"><label><input type="checkbox" class="form-check-input me-2"> Computer Science</label></div>
+              <div class="col-md-6"><label><input type="checkbox" class="form-check-input me-2"> SAT/ACT</label></div>
+            </div>
+          </div>
+          <div class="col-12 field"><textarea class="form-control" placeholder="Additional notes / questions"></textarea></div>
+          <div class="col-12"><button type="submit" class="btn-dark-wide">Submit</button></div>
+        </div>
+      </form>
+
+      <div class="mt-5 p-4" style="background:#F2F2F2;">
+        <h3 style="margin-top:0">Service Information</h3>
+        <p><strong>Virtual Consultation —</strong> Once you have been contacted by ACE staff, please book a consultation.</p>
+        <a href="contact.html" class="btn btn-ace">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="subscribe-section">
+    <div class="container">
+      <h3>Subscribe Form</h3>
+      <form onsubmit="event.preventDefault(); alert('Thanks for subscribing!'); this.reset();">
+        <div class="mb-3" style="max-width:540px;margin:0 auto;"><input type="email" class="form-control" placeholder="Email Address" required></div>
+        <div style="max-width:540px;margin:0 auto;"><button type="submit" class="btn-dark-wide">Submit</button></div>
+      </form>
+    </div>
+  </section>
+
+  <section class="partner">
+    <div class="container">
+      <div class="phone">408-873-3000</div>
+      <img src="https://static.wixstatic.com/media/dfe013_61d4c3dd3fd54fd382fac03082e173c9~mv2.png/v1/fill/w_220,h_98,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LognCoding.png" alt="LognCoding">
+      <div class="label">Official Licensed Academy</div>
+      <div class="copy">©2025 by Academic Consulting &amp; Education.</div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
